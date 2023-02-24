@@ -1,0 +1,40 @@
+<!-- You implement -->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <title>Placing Order</title>
+    </head>
+    <body>
+        <h1>
+            Placing Order
+        </h1>
+        <form>
+            <div class="form-input">
+                <label for="serialNumber">Item Serial #</label>
+                <input type="text" name="serialNumber" id="serialNumber">
+            </div>
+            <div class="form-input">
+                <label for="cc1">Credit Card #</label>
+                <input class="cc" id="cc1" name="cc1" type="text"  required> -
+                <input class="cc" id="cc2" name="cc2" type="text"  required> -
+                <input class="cc" id="cc3" name="cc3" type="text"  required> -
+                <input class="cc" id="cc4" name="cc4" type="text"  required>
+            </div>
+            <div class="form-input">
+                <label for="shipping">Shipping Address</label>
+                <input id="shipping" type="address" maxlength="80" name="shipping">
+            </div>
+            <div class="form-input">
+                <label for="email">Contact Email Address</label>
+                <input id="email" type="email" name="email">
+            </div>
+            <div class="form-buttons">
+                <button type="submit">Submit Order</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+        <div class="footer">
+            <!--#include virtual="footer.shtml"-->
+        </div>
+    </body>
+</html>

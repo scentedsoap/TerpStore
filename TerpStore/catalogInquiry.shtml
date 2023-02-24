@@ -1,0 +1,53 @@
+<!-- You implement -->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Catalog Inquiry</title>
+    </head>
+    <body>
+        <div class="inner">
+            <h1>Catalog Inquiry</h1>
+            <form id = "Catalog Inquiry" action="http://npp.cs.umd.edu/cmsc335/projects/TerpStore/catalogInquiry.php" method="get">
+                <div class ="form-input">
+                    <label for="item-category">Item Category</label>
+                    <input list="item-list" name="item-choice" id="item-choice" required>
+                        <datalist id="item-list">
+                            <option value="clothes"></option>
+                            <option value="books"></option>
+                            <option value="music"></option>
+                            <option value="food"></option>
+                            <option value="other"></option>
+                        </datalist>
+                </div>
+                <div class ="form-input">
+                    <label for="cost">Maximum Cost ($)</label>
+                    <input type="number" min="1" max="1000" step="5" name="maximumCost">
+                </div>
+                <div class="form-input">
+                    <div class ="form-input-check">
+                        <label for="availableOnCampus">Available on Campus</label>
+                        <input type="checkbox" name="availableOnCampus" id="availableOnCampus">
+                    </div>
+                    <div class ="form-input-check">
+                        <label for="availableOnline">Available Online</label>
+                        <input type="checkbox" name="availableOnline" id="availableOnline" checked>
+                    </div>
+                </div>
+                <div class="form-input"></div>
+                    <label for="info">Additional Information</label>
+                    <textarea name="info" id="info"></textarea>
+                <div class ="form-input">
+                    <label for="contact-email-address">Email Address</label>
+                    <input type="email" id="contact-email-address" name="email" placeholder="example@terpmail.umd.edu">
+                </div>
+                <div class ="form-input">
+                    <button id="submit" type="submit">Submit Inquiry</button>
+                    <button id="clear" type="reset">Clear</button>
+                </div>
+            </form>
+            <div class="footer">
+                <!--#include virtual="footer.shtml"-->
+            </div>
+        <div>
+    </body>
+</html>
