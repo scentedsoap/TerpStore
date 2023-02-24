@@ -5,15 +5,17 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Terp Store</h1>
-        <div class="box">
-            <div class="navigation">
-                <a href="catalogInquiry.shtml">Catalog Inquiry</a>
-                <a href="placingOrder.shtml">Placing Order</a>
+        <div class="page-container">
+            <h1>Terp Store</h1>
+            <div class="box">
+                <div class="navigation">
+                    <a href="catalogInquiry.shtml">Catalog Inquiry</a>
+                    <a href="placingOrder.shtml">Placing Order</a>
+                </div>
             </div>
-        </div>
-        <div class="footer">
-            <!--#include virtual="footer.shtml"-->
+            <div class="footer">
+                <!--#include virtual="footer.shtml"-->
+            </div>
         </div>
     </body>
 </DOCTYPE>

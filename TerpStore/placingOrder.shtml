@@ -5,6 +5,7 @@
         <title>Placing Order</title>
     </head>
     <body>
+        <div class="page-container">
         <h1>
             Placing Order
         </h1>
@@ -36,5 +37,6 @@
         <div class="footer">
             <!--#include virtual="footer.shtml"-->
         </div>
+    </div>
     </body>
 </html>

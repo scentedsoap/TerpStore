@@ -5,6 +5,7 @@
         <title>Catalog Inquiry</title>
     </head>
     <body>
+        <div class="page-container">
         <div class="inner">
             <h1>Catalog Inquiry</h1>
             <form id = "Catalog Inquiry" action="http://npp.cs.umd.edu/cmsc335/projects/TerpStore/catalogInquiry.php" method="get">
@@ -48,6 +49,7 @@
             <div class="footer">
                 <!--#include virtual="footer.shtml"-->
             </div>
+        </div>
         <div>
     </body>
 </html>

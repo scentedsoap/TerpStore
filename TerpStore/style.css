@@ -2,14 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* You implement */
 body {
-    position: relative;
     margin:0;
-    background-image: url("images/JimHenson.jpg");
-    background-size: cover;
     font-family: 'Roboto', sans-serif;
     font-size: 1.75rem;
-    border:5px solid white;
-    border:5px solid green;
+    width: 840px;
+
 }
 
 form {
@@ -36,14 +33,35 @@ button {
     font-size: 1rem;
 }
 h1{
-    font-size: 5rem;
+    font-size: 3rem;
     color:azure;
     text-decoration: underline;
     background-color: rgb(0, 0, 0, .4);
-    margin-top: 3rem;
-    margin-left: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
     max-width: fit-content;
     position: relative;
+}
+
+a {
+    color:brown;
+}
+
+a:hover {
+    transform: scale(.9);
+}
+
+a:visited {
+    color:beige;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("images/JimHenson.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:5px solid green;
 }
 
 footer {
@@ -57,6 +75,11 @@ footer {
 
 footer div a {
     color:white;
+    font-style: italic;
+}
+
+footer div a:hover {
+    transform: scale(.9);
 }
 
 .footer {
@@ -67,23 +90,21 @@ footer div a {
     border: 10px solid azure;
 }
 
-.box {
+/* .box {
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100%;
-    
-}
+} */
 
 .navigation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255, 0.85);
-    max-width: fit-content;
-    padding: .5rem 5rem;
-    margin: auto;
+    background-color: rgb(211,211,211, 0.8);
+    width: 300px;
+    height: 70px;
+    margin: 11rem auto;
+    border: 1px solid black
+
 }
 
 .form-input{
